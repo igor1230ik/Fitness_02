@@ -1,0 +1,100 @@
+/* ========================== Обнуляющий стиль ================================================== */
+@import "null.css";
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+
+/* ========================= Шрифты ==================================== */
+/* Circular Std*/
+@font-face {
+    font-family: 'CircularStd';
+    src: url('../FONTS/CircularStd/CircularStd-Black.woff2') format('woff2'), url('../FONTS/CircularStd/CircularStd-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'CircularStd';
+    src: url('../../FONTS/CircularStd/CircularStd-Bold.woff2') format('woff2'), url('../../FONTS/CircularStd/CircularStd-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'CircularStd';
+    src: url('../../FONTS/CircularStd/CircularStd-Book.woff2') format('woff2'), url('../../FONTS/CircularStd/CircularStd-Book.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'CircularStd-Medium';
+    src: url('../../FONTS/CircularStd/CircularStd-Medium.woff2') format('woff2'), url('../../FONTS/CircularStd/CircularStd-Medium.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*==============================================================*/
+
+
+
+body{
+    height: 100%;
+    font-family:"CircularStd";
+    font-weight: 400;
+    font-size: 20px;
+    color: #313131;
+}
+
+._block{
+    overflow: hidden;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+[class*="__container"]{
+        max-width: 1340px;
+        margin: 0 auto;
+        padding: 0 15px;
+}
+
+.button {
+    padding: 18px 47px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+[class*="_black"]{
+    background: #313131;
+    box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.1), 0px 64.8148px 46.8519px rgba(49, 49, 49, 0.0759259), 0px 38.5185px 25.4815px rgba(49, 49, 49, 0.0607407), 0px 20px 13px rgba(49, 49, 49, 0.05), 0px 8.14815px 6.51852px rgba(49, 49, 49, 0.0392593), 0px 1.85185px 3.14815px rgba(49, 49, 49, 0.0240741);
+    color: #fff;
+}
+
+.title {
+font-family: "CircularStd-Medium";
+font-size: 65px;
+line-height: 1.3em;
+}
+
+.subtitle{
+    font-size: 20px;
+    line-height: 1.25em;
+    color: #5F5F5F;
+}
+
+.lock{
+    overflow: hidden;
+}
