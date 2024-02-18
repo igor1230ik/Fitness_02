@@ -21,7 +21,7 @@ $mail->isSMTP();                                            //Send using SMTP
 $mail->Host       = 'smtp.ukr.net';                     //Set the SMTP server to send through
 $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
 $mail->Username   = 'form-test@ukr.net';                     //SMTP username
-$mail->Password   = 'iEWoaH5yTJjFrp3H';                               //SMTP password
+$mail->Password   = 'Ho6toCHEym5ndZBl';                               //SMTP password
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
 $mail->Port       = 2525;
 
